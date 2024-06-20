@@ -1,0 +1,154 @@
+html {
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    background-color: #515f67;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+li {
+    list-style-type: none; 
+}
+
+nav {
+    display: flex;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 5)
+}
+
+footer {
+    display: flex;
+    border: 2px solid black;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: white;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.blocCenter {       /* PERMET DE CENTRER LE CONTENU GLOBAL DES BOXS */
+    justify-content: center;
+    align-items: center;
+}
+
+.firstTxt {
+    display: flex;
+    background-image: url('../images/banniere.png');
+    width: auto;
+    border: 2px solid black;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.firstTxt h1 {
+    color: white;
+}
+
+.services {
+    display: flex;
+    border: 2px solid black;
+}
+
+.portfolio {
+    display: flex;
+    border: 2px solid black;
+}
+
+.defaultsectionTitre {
+    display: flex;
+    border: 2px solid black;
+}
+
+.defaultsectionDesc {
+    display: flex;
+    border: 2px solid black;
+    color: white;
+}
+
+.defaultsectionVideo {
+    display: flex;
+    border: 2px solid black;
+}
+
+.twitterTitre {
+    display: flex;
+    border: 2px solid black;
+}
+
+.twitterLogo {
+    display: flex;
+    border: 2px solid black;
+}
+
+.twitterCitation {
+    display: flex;
+    border: 2px solid black;
+}
+
+.johndoeTitre {
+    display: flex;
+    border: 2px solid black;
+}
+
+.johnbox1 {
+    display: flex;
+    border: 2px solid black;
+}
+
+.johnbox2 {
+    display: flex;
+    border: 2px solid black;
+}
+
+.johnbox3 {
+    display: flex;
+    border: 2px solid black;
+}
+
+.johnboxIcon1 {
+    display: flex;
+    border: 2px solid black;
+}
+
+.johnboxIcon2 {
+    display: flex;
+    border: 2px solid black;
+}
+
+.johnboxIcon3 {
+    display: flex;
+    border: 2px solid black;
+}
+
+.johnboxIcon4 {
+    display: flex;
+    border: 2px solid black;
+}
+
+.testimonialsTitre {
+    display: flex;
+    border: 2px solid black;
+}
+.testimonialsLogo {
+    display: flex;
+    border: 2px solid black;
+}
+
+.testimonialsDesc {
+    display: flex;
+    border: 2px solid black;
+}
+
+.contact {
+    display: flex;
+    border: 2px solid black;
+}
