@@ -56,11 +56,14 @@ h3 {
 .services {
     display: flex;
     border: 2px solid black;
+    background-color: #4bcaff;
 }
+
 
 .portfolio {
     display: flex;
     border: 2px solid black;
+    background-color: white;
 }
 
 .defaultsectionTitre {
@@ -79,9 +82,16 @@ h3 {
     border: 2px solid black;
 }
 
+.twitter {
+    display: flex;
+    border: 2px solid black;
+    background-color: #4bcaff;
+}
+
 .twitterTitre {
     display: flex;
     border: 2px solid black;
+    
 }
 
 .twitterLogo {
@@ -92,6 +102,10 @@ h3 {
 .twitterCitation {
     display: flex;
     border: 2px solid black;
+}
+
+.johndoe {
+    background-image: url('../images/presentation.png');
 }
 
 .johndoeTitre {
