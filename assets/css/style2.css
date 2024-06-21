@@ -1,0 +1,38 @@
+html {
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #515f67;
+    margin: auto;
+    color: white;
+}
+
+li {
+    list-style-type: none; 
+}
+
+#container {  /* A INTRODUIRE DANS LES AUTRES BOITES */
+    display: flex;
+    justify-content: center;
+    width: 1140px;
+    margin: auto;
+}
+
+
+/* BARRE DE NAVIGATION ET SON CONTENU */
+.navbar {
+    display: flex;
+    border: 1px solid black;
+}
+
+.navbar .navbarLogo {
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+.navbar .navbarMenu {
+    align-self: flex-end;
+}
+

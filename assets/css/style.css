@@ -6,8 +6,7 @@ html {
 
 body {
     background-color: #515f67;
-    margin: 0;
-    padding: 0;
+    margin: auto;
     color: white;
 }
 
@@ -17,7 +16,6 @@ li {
 
 nav {
     display: flex;
-    border: 2px solid black;
     background-color: rgba(0, 0, 0, 0.5);
     justify-content: center;
 }
@@ -36,29 +34,36 @@ h3 {
     text-transform: uppercase;
 }
 
-.container {       /* PERMET DE CENTRER LE CONTENU GLOBAL DES BOXS */
+#container {  /* A INTRODUIRE DANS LES AUTRES BOITES */
+    display: flex;
     justify-content: center;
-    align-items: center;
+    width: 1140px;
+    margin: auto;
+}
+
+
+.flexd {
+    display: flex;
 }
 
 /* CONTENU MENU */
 .navMain {
     display: flex;
-    border: 2px solid black;
 }
 
 .navMainLogo {
     display: flex;
-    border: 2px solid black;
 }
 
 /* CONTENU  */
-.firstTxt {
-    display: flex;
+.firstImg {
     background-image: url('../images/banniere.png');
     width: auto;
     height: auto;
-    border: 2px solid black;
+}
+
+.firstTxt {
+    display: flex;
     justify-content: center;
     text-transform: uppercase;
     text-shadow: 1px 1px 30px black;
@@ -72,12 +77,7 @@ h3 {
 .services {
     border: 2px solid black;
     background-color: #4bcaff;
-    align-items: center;
     
-}
-
-.flexd {
-    display: flex;
 }
 
 .servicesTitre {
@@ -86,27 +86,18 @@ h3 {
 }
 
 .servicesCoffee {
-    display: flex;
     border: 2px solid black;
 }
 
 .servicesInstant {
-    display: flex;
     border: 2px solid black;
 }
 
 .servicesSerious {
-    display: flex;
     border: 2px solid black;
 }
 
 .servicesFrame {
-    display: flex;
-    border: 2px solid black;
-}
-
-.servicesTitre {
-    display: flex;
     border: 2px solid black;
 }
 
