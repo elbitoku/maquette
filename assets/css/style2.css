@@ -13,6 +13,18 @@ li {
     list-style-type: none; 
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h6 {
+    font-size: 10px;
+}
+
 #container {  /* A INTRODUIRE DANS LES AUTRES BOITES */
     display: flex;
     justify-content: center;
@@ -20,19 +32,343 @@ li {
     margin: auto;
 }
 
+.flexed {
+    display: flex;
+
+}
 
 /* BARRE DE NAVIGATION ET SON CONTENU */
 .navbar {
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbarLogo {
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.navbarMenu {
+    font-weight: bold;
+    align-content: space-between;
+}
+
+.navbarMenuHome {
+    border: 2px solid white;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbarMenuServices {
+    border: 2px solid white;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbarMenuFeatures {
+    border: 2px solid white;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbarMenuPortfolio {
+    border: 2px solid white;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbarMenuContact {
+    border: 2px solid white;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* IMAGE ET TEXTE */
+.banniere {
+    display: flex;
+    background-image: url('../images/banniere.png');
+    border: 1px solid black;
+    padding-top: 100px;
+    padding-bottom: 635px;
+}
+
+.lookingfor1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.lookingfor2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.lookingfor h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+/* SERVICES */
+.services {
+    background-color: #4bcaff; 
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.servicesTitre {
+    display: flex;
+}
+
+.servicesCoffee {
+    font-weight: bold;
+}
+
+.servicesInstant {
+    font-weight: bold;
+}
+
+.servicesSerious {
+    font-weight: bold;
+}
+
+.servicesFrame {
+    font-weight: bold;
+}
+
+/* PORTFOLIO */
+.portfolio {
+    display: flex;
+    background-color: white;
+    color:#353f46
+}
+
+
+.portfolioTitre {
+    border: 2px solid black;
+    display: flex;
+    color:#353f46
+}
+
+.portfolioAll {
+    border: 2px solid #4bcaff;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.portfolioPanoramas {
+    border: 2px solid #4bcaff;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.portfolioPortraits {
+    border: 2px solid #4bcaff;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.portfolioMacro {
+    border: 2px solid #4bcaff;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.portfolioJournal {
+    border: 2px solid #4bcaff;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.portfolioImg1 {
+    display: flex;
+}
+
+.portfolioImg2 {
+    display: flex;
+}
+
+.portfolioImg3 {
+    display: flex;
+}
+
+.portfolioImg4 {
+    display: flex;
+}
+
+.portfolioImg5 {
+    display: flex;
+}
+
+.portfolioImg6 {
+    display: flex;
+}
+
+.portfolioImg7 {
+    display: flex;
+}
+
+.portfolioImg8 {
+    display: flex;
+}
+/* JUST DEFAULT SECTION */
+
+.section {
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.sectionTitre {
+    border: 2px solid black;
+    justify-content: left;
+}
+
+.sectionTexte {
+    font-weight: bold;
+}
+
+.sectionVideo {
     border: 1px solid black;
 }
 
-.navbar .navbarLogo {
-    align-self: flex-start;
-    margin-top: 10px;
+.sectionBouton {
+    background-color: #515f67;
+    color: #353f46;
+    border: 2px solid rgb(53, 63, 70);
+    border-radius: 0px;
+    padding: 9px 30px;
+    display: inline-block;
+    font-family: 'SegoeSemiBold', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 30px;
 }
 
-.navbar .navbarMenu {
-    align-self: flex-end;
+/* TWITTER */
+.twitter {
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: #4bcaff; 
+    padding-top: 20px;
+    padding-bottom: 30px;
+    align-content: space-between;
 }
 
+.twitterTitre {
+    display: flex;
+    border: 2px solid black;
+}
+
+.twitterLogo {
+    position: relative;
+    border: 2px solid black;
+}
+
+.twitterTxt {
+    display: flex;
+    border: 2px solid black;
+}
+
+/*  WHO IS JOHN DOE */
+
+.johndoe {
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-image: url('../images/presentation.png');
+    padding-top: 30px;
+    padding-bottom: 300px;
+}
+
+.johndoeTitreTxt {
+    font-size: 14px;
+}
+
+.johndoeTexteLogo {
+    font-size: 14px;
+}
+
+.johnflex {
+    flex-direction: row;
+}
+
+.johnbordure {
+    color: #fff;
+    border-color: #fff;
+    margin-right: 16px;;
+}
+
+.johnTwitter {
+    background-image: url(../icones/Rectangle\ twitter.png);
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: #fff; 
+    color: #515f67;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    align-content: space-between;
+}
+
+.testimonialsTitre {
+    display: flex;
+    border: 2px solid black;
+}
+
+.testimonialsLogo {
+    position: relative;
+    border: 2px solid black;
+}
+
+.testimonialsTxt {
+    display: flex;
+    border: 2px solid black;
+}
+
+/* CONTACT */
+.contact {
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-image: url('../images/contact.png');
+    padding-top: 30px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+}
+
+.contactTitre {
+    display: flex;
+    border: 2px solid black;
+}
+
+.contactForm1 {
+    border: 2px solid black;
+}
+
+.contactTxt {
+    border: 2px solid black;
+}
+
+.contactMsg {
+    border: 2px solid black;
+}
+
+.contactInput {
+    border: 2px solid white;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* FOOTER */
+footer {
+    background-color: #515f67;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
