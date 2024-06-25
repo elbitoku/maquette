@@ -13,8 +13,8 @@
             <div class="navbarLogo">
                 <img src="./assets/images/blueasy.png" alt="Logo">
             </div>
-            <div class="navbarMenu">
-                <ul style="display: flex;">
+            <div>
+                <ul class="navbarMenu">
                     <div class="navbarMenuHome">
                         <li>Home</li>
                     </div>
@@ -37,11 +37,9 @@
 
     <!-- IMAGE ET TEXTE -->
     <div class="banniere">
-        <div id="container">
+        <div id="container" class="justify-content">
             <div class="lookingfor1">
                 <h1>"I'm looking for the unexpected.</h1>
-            </div>
-            <div class="lookingfor2">
                 <h1>"I'm looking for things i've never seen before."</h1>
             </div>
         </div>
@@ -86,7 +84,7 @@
             <div class="portfolioTitre">
                 <h1>Portfolio</h1>
             </div>
-            <ul style="display: flex;">
+            <ul class="portfolioMenu">
                 <div class="portfolioAll">
                     <li>All</li>
                 </div>
@@ -109,7 +107,7 @@
                 <ul style="display: flex;">
                     <li>
                         <div class="portfolioImg1">
-                            <img src="./assets/images/image1.png" alt="" style="margin: 10px;margin-left: -30px;">
+                            <img src="./assets/images/image1.png" alt="" style="margin: 10px;margin-left: -60px;">
                         </div>
                     </li>
                     <li>
@@ -135,7 +133,7 @@
                 <ul style="display: flex;">
                     <li>
                         <div class="portfolioImg5">
-                            <img src="./assets/images/image5.png" alt="" style="margin: 10px;margin-left: -30px;">
+                            <img src="./assets/images/image5.png" alt="" style="margin: 10px;margin-left: -60px;">
                         </div>
                     </li>
                     <li>
@@ -232,22 +230,26 @@
     <!-- CONTACT -->
     <div class="contact">
         <div id="container">
+            <div class="contactTitre">
+                <h1>Contact</h1>
+            </div>
             <div class="contactForm1">
                 <form action="" method="post">
                     <label for="fullname"><h3>Full name</h3></label>
-                    <input type="text" name="fullname" id="fullname" class="contactInput" style="width: 200px; height: 30px;">
+                    <input type="text" name="fullname" id="fullname" class="contactInput" style="width: 400px; height: 50px;">
                     <label for="email"><h3>Email</h3></label>
-                    <input type="email" name="email" id="email" class="contactInput" style="width: 200px; height: 30px;">
+                    <input type="email" name="email" id="email" class="contactInput" style="width: 400px; height: 50px;">
+            </div>
                     <div class="contactTxt">
                         <p>Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
                         <p>Linda Newman</p><br><p>W325 State Road 123</p><br><p>Mondovi, WI(Wisconsin) 98746-54321</p><br><p>(715) 946 - 1234</p>
                     </div>
-                        <div class="contactMsg">
-                            <h3>Message</h3>
-                        </div>
-                    <textarea name="message" id="message" class="contactInput" style="width: 1140px; height:150px"></textarea>
+
+                    <div class="contactMsg">
+                        <h3>Message</h3>   
+                        <textarea name="message" id="message" class="contactInput" style="width: 1140px; height:150px"></textarea>
+                    </div>
                 </form>
-            </div>
         </div>
     </div>
         <!-- FOOTER -->

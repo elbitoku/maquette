@@ -1,6 +1,6 @@
 html {
     font-size: 12px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 body {
@@ -11,14 +11,21 @@ body {
 
 li {
     list-style-type: none; 
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 
 h1 {
     text-transform: uppercase;
+    font-weight: lighter;
 }
 
 h2 {
     text-transform: uppercase;
+    font-weight: lighter;
 }
 
 h6 {
@@ -29,6 +36,7 @@ h6 {
     display: flex;
     width: 1140px;
     margin: auto;
+
 }
 
 .flexed {
@@ -53,9 +61,10 @@ h6 {
     top: 0;
     left: 0;
     right: 0;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
 }
 
 .navbarLogo {
@@ -64,52 +73,98 @@ h6 {
 }
 
 .navbarMenu {
+    display: flex;
     font-weight: bold;
-    align-content: space-between;
+    justify-content: space-between;
+    padding-left: 0px;
+    width: 450px;
+
 }
 
 .navbarMenuHome {
-    border: 2px solid white;
+    border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 0px;
     background-color: rgba(0, 0, 0, 0);
+}
+
+.navbarMenuHome:hover {
+    font-weight: bold;
+    border: 2px solid #4bcaff;
 }
 
 .navbarMenuServices {
-    border: 2px solid white;
+    border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 0px;
     background-color: rgba(0, 0, 0, 0);
+}
+
+.navbarMenuServices:hover {
+    font-weight: bold;
+    border: 2px solid #4bcaff;
 }
 
 .navbarMenuFeatures {
-    border: 2px solid white;
+    border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 0px;
     background-color: rgba(0, 0, 0, 0);
+}
+
+.navbarMenuFeatures:hover {
+    font-weight: bold;
+    border: 2px solid #4bcaff;
 }
 
 .navbarMenuPortfolio {
-    border: 2px solid white;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbarMenuPortfolio:hover {
+    font-weight: bold;
+    border: 2px solid #4bcaff;
+}
+
+.navbarMenuContact {
+    border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 0px;
     background-color: rgba(0, 0, 0, 0);
 }
 
-.navbarMenuContact {
-    border: 2px solid white;
-    border-radius: 0px;
-    background-color: rgba(0, 0, 0, 0);
+.navbarMenuContact:hover {
+    font-weight: bold;
+    border: 2px solid #4bcaff;
 }
 
 /* IMAGE ET TEXTE */
 .banniere {
     display: flex;
     background-image: url('../images/banniere.png');
-    padding-top: 100px;
-    padding-bottom: 635px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 795px;
 }
 
 .lookingfor1 {
-    background-color: rgba(0, 0, 0, 0.5);
+    width: auto;
+    height: 795px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     font-weight: lighter;
+}
+
+.lookingfor1 > h1{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    margin-bottom: -10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: lighter;
+    font-size: 35px;
+
 }
 
 .lookingfor2 {
@@ -163,78 +218,134 @@ h6 {
     color:#353f46
 }
 
+.portfolioMenu {
+    display: flex;
+    font-weight: bolder;
+    justify-content: space-between;
+    padding-left: 0px;
+    width: 450px;
+}
+
 .portfolioAll {
-    border: 2px solid #4bcaff;
     border-radius: 0px;
     background-color: rgba(0, 0, 0, 0);
+}
+
+.portfolioAll:hover {
+    font-weight: bold;
+    border: 2px solid #4bcaff;
 }
 
 .portfolioPanoramas {
-    border: 2px solid #4bcaff;
     border-radius: 0px;
     background-color: rgba(0, 0, 0, 0);
+}
+
+.portfolioPanoramas:hover {
+    font-weight: bold;
+    border: 2px solid #4bcaff;
 }
 
 .portfolioPortraits {
-    border: 2px solid #4bcaff;
     border-radius: 0px;
     background-color: rgba(0, 0, 0, 0);
+}
+
+.portfolioPortraits:hover {
+    font-weight: bold;
+    border: 2px solid #4bcaff;
 }
 
 .portfolioMacro {
-    border: 2px solid #4bcaff;
     border-radius: 0px;
     background-color: rgba(0, 0, 0, 0);
 }
 
-.portfolioJournal {
+.portfolioMacro:hover {
+    font-weight: bold;
     border: 2px solid #4bcaff;
+}
+
+.portfolioJournal {
     border-radius: 0px;
     background-color: rgba(0, 0, 0, 0);
+}
+
+.portfolioJournal:hover {
+    font-weight: bold;
+    border: 2px solid #4bcaff;
 }
 
 .portfolioImg1 {
     display: flex;
 }
 
+.portfolioImg1:hover {
+    background-image: url('../images/hover.png');
+}
+
 .portfolioImg2 {
     display: flex;
+}
+
+.portfolioImg2:hover {
+    background-image: url('../images/hover.png');
 }
 
 .portfolioImg3 {
     display: flex;
 }
 
+.portfolioImg3:hover {
+    background-image: url('../images/hover.png');
+}
+
 .portfolioImg4 {
     display: flex;
+}
+
+.portfolioImg4:hover {
+    background-image: url('../images/hover.png');
 }
 
 .portfolioImg5 {
     display: flex;
 }
 
+.portfolioImg5:hover {
+    background-image: url('../images/hover.png');
+}
+
 .portfolioImg6 {
     display: flex;
+}
+
+.portfolioImg6:hover {
+    background-image: url('../images/hover.png');
 }
 
 .portfolioImg7 {
     display: flex;
 }
 
+.portfolioImg7:hover {
+    background-image: url('../images/hover.png');
+}
+
 .portfolioImg8 {
     display: flex;
 }
+
+.portfolioImg8:hover {
+    background-image: url('../images/hover.png');
+}
+
 /* JUST DEFAULT SECTION */
 
 .section {
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 30px;
-}
-
-.sectionTitre {
-    border: 2px solid black;
-    justify-content: left;
 }
 
 .sectionTexte {
@@ -345,8 +456,8 @@ h6 {
 }
 
 .contactTitre {
-    display: flex;
     border: 2px solid black;
+    display: flex;
 }
 
 .contactForm1 {
@@ -355,7 +466,6 @@ h6 {
 
 .contactTxt {
     border: 2px solid black;
-    display: flex;
 }
 
 .contactMsg {
@@ -374,4 +484,9 @@ footer {
     display: flex;
     padding-top: 20px;
     padding-bottom: 30px;
+    color: #353f46;
+}
+
+footer:hover {
+    color:white;
 }
